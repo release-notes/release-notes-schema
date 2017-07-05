@@ -1,0 +1,22 @@
+{
+  "$id": "com.release-notes",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "releases": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}
