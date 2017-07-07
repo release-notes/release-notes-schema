@@ -1,0 +1,19 @@
+{
+  "$id": "@release-notes/modification",
+  "oneOf": [
+    {
+      "type": "string"
+    },
+    {
+      "type": "object",
+      "required": [
+        "title"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        }
+      }
+    }
+  ]
+}
