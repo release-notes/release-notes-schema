@@ -1,0 +1,27 @@
+{
+  "name": "@release-notes/schema",
+  "version": "0.1.0",
+  "description": "JSON Schema definitions of the release-notes specification - an easy to use, human readable and machine processable schema for release notes.",
+  "author": "Alrik Zachert <alrik.zachert@gmail.com>",
+  "keywords": [
+    "release notes",
+    "release-notes",
+    "releasenotes",
+    "release",
+    "notes",
+    "changelog",
+    "json schema",
+    "schema"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/release-notes/release-notes-schema/issues"
+  },
+  "repository": {
+    "url": "https://github.com/release-notes/release-notes-schema"
+  },
+  "homepage": "https://github.com/release-notes",
+  "contributors": [
+    "Alrik Zachert <alrik.zachert@gmail.com>"
+  ]
+}
