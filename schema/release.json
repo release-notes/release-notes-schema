@@ -1,0 +1,60 @@
+{
+  "$id": "@release-notes/release",
+  "type": "object",
+  "required": [
+    "version"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "oneOf": [{
+        "format": "date"
+      }, {
+        "format": "date-time"
+      }]
+    },
+    "added": {
+      "$ref": "modification-list"
+    },
+    "removed": {
+      "$ref": "modification-list"
+    },
+    "changed": {
+      "$ref": "modification-list"
+    },
+    "improved": {
+      "$ref": "modification-list"
+    },
+    "deprecated": {
+      "$ref": "modification-list"
+    },
+    "fixed": {
+      "$ref": "modification-list"
+    },
+    "secured": {
+      "$ref": "modification-list"
+    }
+  },
+  "anyOf": [
+    {
+      "required": [ "version", "date" ]
+    },
+    {
+      "properties": {
+        "version": {
+          "enum": ["Next", "Upcoming", "Unreleased"]
+        }
+      },
+      "required": [ "version" ]
+    }
+  ]
+}
