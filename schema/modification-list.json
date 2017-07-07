@@ -1,0 +1,7 @@
+{
+  "$id": "@release-notes/modification-list",
+  "type": "array",
+  "items": {
+    "$ref": "modification"
+  }
+}
