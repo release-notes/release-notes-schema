@@ -1,5 +1,5 @@
 {
-  "$id": "com.release-notes",
+  "$id": "@release-notes/release-notes",
   "type": "object",
   "additionalProperties": false,
   "required": [
