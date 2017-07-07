@@ -1,0 +1,22 @@
+{
+  "$id": "@release-notes/release-notes",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title"
+  ],
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "releases": {
+      "type": "array",
+      "items": {
+        "$ref": "release"
+      }
+    }
+  }
+}

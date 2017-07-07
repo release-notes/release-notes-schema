@@ -1,0 +1,14 @@
+title: Release Notes of Release Notes Schema
+description: >
+  Release-notes-schema is the JSON schema definition of the release notes specification -
+  an easy to use, human readable and machine processable schema for release notes.
+
+releases:
+- version: 0.1.0
+  date: 2017-07-07T12:48:00Z
+  title: Release Notes Schema for Draft 0.2.0
+  description: JSON Schema definitions reflecting the release notes specification v0.2.0
+  added:
+  - Add JSON schema definition for release-notes, releases, modification-lists and modifications.
+  - Add MIT license.
+  - Introduce these release notes.
