@@ -1,0 +1,5 @@
+{
+  "$id": "@release-notes/tag",
+  "type": "string",
+  "minLength": 1
+}
