@@ -23,5 +23,6 @@
   "homepage": "https://github.com/release-notes",
   "contributors": [
     "Alrik Zachert <alrik.zachert@gmail.com>"
-  ]
+  ],
+  "main": "./index.js"
 }
