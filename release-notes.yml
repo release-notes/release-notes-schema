@@ -4,6 +4,9 @@ description: >
   an easy to use, human readable and machine processable schema for release notes.
 
 releases:
+- version: Next
+  improved:
+  - All schema definitions can be accessed from main package export.
 - version: 0.1.0
   date: 2017-07-07T12:48:00Z
   title: Release Notes Schema for Draft 0.2.0
