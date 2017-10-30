@@ -5,7 +5,16 @@
 # About
 
 The goal of this repository is to implement [JSON Schema Definitions](https://trac.tools.ietf.org/html/draft-wright-json-schema-validation-01)
-of the [Release Notes Spec](https://github.com/release-notes/release-notes-spec).
+of the [Release Notes Specification](https://github.com/release-notes/release-notes-spec).
+
+The following schemas are defined:
+
+* [ReleaseNotes](definitions/release-notes.json)
+* [Release](definitions/release.json)
+* [ModificationList](definitions/modification-list.json)
+* [Modification](definitions/modification.json)
+* [TagList](definitions/tag-list.json)
+* [Tag](definitions/tag.json)
 
 ## Installation
 
