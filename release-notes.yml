@@ -4,7 +4,8 @@ description: >
   an easy to use, human readable and machine processable schema for release notes.
 
 releases:
-- version: Next
+- version: 0.2.0
+  date: 2017-10-30
   improved:
   - All schema definitions can be accessed from main package export.
   added:
