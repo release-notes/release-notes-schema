@@ -12,6 +12,9 @@
       "properties": {
         "title": {
           "type": "string"
+        },
+        "tags": {
+          "$ref": "tag-list"
         }
       }
     }

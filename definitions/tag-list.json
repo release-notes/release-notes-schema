@@ -1,0 +1,7 @@
+{
+  "$id": "@release-notes/tag-list",
+  "type": "array",
+  "items": {
+    "$ref": "tag"
+  }
+}

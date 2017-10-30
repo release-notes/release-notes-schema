@@ -1,6 +1,6 @@
 {
   "name": "@release-notes/schema",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "JSON Schema definitions of the release-notes specification - an easy to use, human readable and machine processable schema for release notes.",
   "author": "Alrik Zachert <alrik.zachert@gmail.com>",
   "keywords": [
@@ -23,5 +23,6 @@
   "homepage": "https://github.com/release-notes",
   "contributors": [
     "Alrik Zachert <alrik.zachert@gmail.com>"
-  ]
+  ],
+  "main": "./index.js"
 }
