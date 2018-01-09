@@ -1,5 +1,5 @@
-language: node_js
-node_js:
+language: node
+node:
 - "8"
 - "6"
 - "9"
@@ -7,12 +7,16 @@ node_js:
 cache: yarn
 git:
   depth: 3
-script:
-- yarn validate-schema
-deploy:
-  provider: npm
-  email: az@kreatiefer.de
-  api_key: $NPM_API_KEY
-  on:
-    tags: true
-    node: "8"
+jobs:
+  include:
+  - stage: test
+    script: yarn validate-schema
+  - stage: deploy
+    if: tag IS present
+    deploy:
+      provider: npm
+      email: az@kreatiefer.de
+      api_key: $NPM_API_KEY
+      on:
+        tags: true
+        node: "8"
