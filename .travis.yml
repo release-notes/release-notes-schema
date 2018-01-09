@@ -7,16 +7,13 @@ node_js:
 cache: yarn
 git:
   depth: 3
+script: yarn validate-schema
 jobs:
   include:
-  - stage: test
-    script: yarn validate-schema
   - stage: deploy
     if: tag IS present
+    node_js: "8"
     deploy:
       provider: npm
       email: az@kreatiefer.de
       api_key: $NPM_API_KEY
-      on:
-        tags: true
-        node: "8"
