@@ -2,6 +2,7 @@
 
 [![Subscribe to Release Notes](https://release-notes.com/badges/v1.svg)](https://release-notes.com/@release-notes/release-notes-schema)
 [![NPM Package](https://img.shields.io/npm/v/@release-notes/schema.svg)](https://www.npmjs.com/package/@release-notes/schema)
+[![Build Status](https://travis-ci.org/release-notes/release-notes-schema.svg?branch=master)](https://travis-ci.org/release-notes/release-notes-schema)
 [![MIT license](https://img.shields.io/github/license/release-notes/release-notes-schema.svg)](LICENSE)
 
 # About
